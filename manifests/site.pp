@@ -5,3 +5,7 @@ node default {
     owner   => 'root',
   }
 }
+
+node 'puppet.isplabnet.com' {
+  incldue role::master_server
+}
