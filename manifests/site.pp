@@ -2,5 +2,5 @@ node default {
 }
 
 node 'puppet.isplabnet.com' {
-  incldue role::master_server
+  include role::master_server
 }
